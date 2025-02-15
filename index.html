@@ -3,9 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Hebrew:wght@100;200;300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Canal2</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <style type="text/tailwindcss">
+        @theme {
+            --font-body: "IBM Plex Sans", Hebrew;
+            --primary-color: #443434;
+            --title-color: #000E01;
+            --secondary-color: #618264;
+            --color-bar: #618264;
+        }
+    </style>
 </head>
-<body>
-    
+<body class="m-0 p-0 border-box p-4 text-body">
+    <header>
+        <div class="flex justify-between">
+            <img class="" src="Assets/images/canal2-logo.svg" alt="">
+            <img class="" src="Assets/images/hamburger.svg" alt="">
+        </div>
+
+        <div>
+            <img class="w-full mt-8" src="Assets/images/Francis.svg" alt="">
+        </div>
+    </header>
+
+    <section>
+        <div class="flex flex-col gap-6">
+            <div class="mt-8 flex gap-2">
+                <hr class="w-4 h-12 bg-bar">
+                <h1 class="mt-6 font-semibold">À LA UNE DU JOUR</h1>
+            </div>
+            <div>
+                <img src="Assets/images/la-une1.svg" alt="">
+                <h1 class="font-semibold leading-8">L’école primaire de melon dans le choc</h1>
+                <p>Lundi matin, le sous prefet du nyon-ekele est partie en visite dans son village natale ....</p>
+            </div>
+            <hr>
+            <div>
+                <img src="Assets/images/la-une2.svg" alt="">
+                <h1 class="font-semibold leading-8">L’école primaire de melon dans le choc</h1>
+                <p>Lundi matin, le sous prefet du nyon-ekele est partie en visite dans son village natale ....</p>
+            </div>
+            <hr>
+            <div>
+                <img src="Assets/images/la-une3.svg" alt="">
+                <h1 class="font-semibold leading-8">L’école primaire de melon dans le choc</h1>
+                <p>Lundi matin, le sous prefet du nyon-ekele est partie en visite dans son village natale ....</p>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
