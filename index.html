@@ -20,115 +20,146 @@
     </style>
 </head>
 
-<body class="m-0 p-0 border-box py-4 text-body">
+<body class="m-0 p-0 border-box text-body lg:p-[3rem]">
     <header class="px-6">
-        <div class="flex justify-between">
-            <img class="" src="Assets/Images/canal2-logo.svg" alt="">
-            <img class="" src="Assets/Images/hamburger.svg" alt="">
-        </div>
-
-        <div>
-            <img class="w-full mt-8" src="Assets/Images/Francis.svg" alt="">
-        </div>
+        <nav class="flex justify-between lg:place-items-center">
+            <img class="lg:w-[100px]" src="Assets/Images/canal2-logo.svg" alt="">
+            <a class="hidden lg:block font-400 text-[24px]" href="">Acceuil</a>
+            <a class="hidden lg:block font-400 text-[24px]" href="">Actualités</a>
+            <a class="hidden lg:block font-400 text-[24px]" href="">Programme</a>
+            <a class="hidden lg:block font-400 text-[24px]" href="">Direct</a>
+            <img class="lg:hidden " src="Assets/Images/hamburger.svg" alt="">
+            <button class="font-700 text-[20px] text-white hidden lg:block border rounded-[50px] w-[200px] h-[65px] bg-bar border-bar">Premium</button>
+        </nav>
     </header>
 
-    <section class="px-6">
-        <div class="flex flex-col gap-6">
-            <div class="mt-8 flex gap-2">
-                <hr class="w-4 h-12 bg-bar">
-                <h1 class="mt-6 font-semibold">À LA UNE DU JOUR</h1>
-            </div>
-            <div class="flex flex-row justify-between">
-                <div><img src="Assets/Images/la-une1.svg" alt=""></div>
-                <div class="flex flex-col gap-[1rem]">
-                    <div>
-                        <h1 class="font-semibold leading-6 font-600 text-[16px] text-primary">L’école primaire de <br>
-                            melon dans le choc</h1>
-                    </div>
-                    <div>
-                        <p class="font-[400] text-[12px] text-primary">Lundi matin, le sous prefet du <br> nyon-ekele
-                            est partie en visite <br> dans son village natale ....</p>
+    <section class="px-6 lg:flex lg:justify-between lg:mt-[4rem]">
+       
+        <div>
+            <img class="lg:hidden w-full mt-8" src="Assets/Images/Francis.svg" alt="">
+            <img class="hidden lg:inline " src="Assets/Images/francis2.svg" alt="">
+        </div>
+       
+
+        <div>
+            <div class="flex flex-col gap-6 lg:gap-[2.3rem]">
+                <div class="flex gap-2">
+                    <hr class="w-4 h-12 bg-bar lg:rounded-[20px]">
+                    <h1 class="mt-6 lg:mt-2 lg:font-600 lg:text-[20px]">À LA UNE DU JOUR</h1>
+                </div>
+                <div class="flex flex-row justify-between lg:gap-[1rem]">
+                    <div><img class="lg:w-[235px]" src="Assets/Images/la-une1.svg" alt=""></div>
+                    <div class="flex flex-col gap-[1rem] lg:gap-[1.5rem] lg:mt-[0.5rem]">
+                        <div>
+                            <h1 class="font-semibold leading-6 font-600 text-[16px] lg:text-[20px] text-primary">L’école primaire de <br>
+                                melon dans le choc</h1>
+                        </div>
+                        <div>
+                            <p class="font-[400] text-[12px] text-[14px] text-primary">Lundi matin, le sous prefet du <br> nyon-ekele
+                                est partie en visite <br> dans son village natale ....</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <hr>
-            <div class="flex flex-row justify-between">
-                <div><img src="Assets/Images/la-une2.svg" alt=""></div>
-                <div class="flex flex-col gap-[1rem]">
-                    <div>
-                        <h1 class="font-semibold leading-6 font-600 text-[16px] text-primary">Manifestations pour la
-                            <br>
-                            baisse des prix
-                        </h1>
-                    </div>
-                    <div>
-                        <p class="font-[400] text-[12px] text-primary">Lundi matin, le sous prefet du <br> nyon-ekele
-                            est partie en visite <br> dans son village natale ....</p>
+                <hr class="lg:hidden">
+                <div class="flex flex-row justify-between lg:gap-[1rem]">
+                    <div><img class="lg:w-[235px]" src="Assets/Images/la-une2.svg" alt=""></div>
+                    <div class="flex flex-col gap-[1rem] lg:gap-[1.5rem] lg:mt-[0.5rem]">
+                        <div>
+                            <h1 class="font-semibold leading-6 font-600 text-[16px] lg:text-[20px] text-primary">Manifestations pour <br> la baisse des prix</h1>
+                        </div>
+                        <div>
+                            <p class="font-[400] text-[12px] text-[14px] text-primary">Lundi matin, le sous prefet du <br> nyon-ekele
+                                est partie en visite <br> dans son village natale ....</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <hr>
-            <div class="flex flex-row justify-between">
-                <div><img src="Assets/Images/la-une3.svg" alt=""></div>
-                <div class="flex flex-col gap-[1rem]">
-                    <div>
-                        <h1 class="font-semibold leading-6 font-600 text-[16px] text-primary">Bientot un métro dans <br>
-                            la
-                            capitale </h1>
-                    </div>
-                    <div>
-                        <p class="font-[400] text-[12px] text-primary">Lundi matin, le sous prefet du <br> nyon-ekele
-                            est partie en visite <br> dans son village natale ....</p>
+                <hr class="lg:hidden">
+                <div class="flex flex-row justify-between lg:gap-[1rem]">
+                    <div><img class="lg:w-[235px]" src="Assets/Images/la-une3.svg" alt=""></div>
+                    <div class="flex flex-col gap-[1rem] lg:gap-[1.5rem] lg:mt-[0.5rem]">
+                        <div>
+                            <h1 class="font-semibold leading-6 font-600 text-[16px] lg:text-[20px] text-primary">Bientot un métro <br> dans la capitale </h1>
+                        </div>
+                        <div>
+                            <p class="font-[400] text-[12px] text-[14px] text-primary">Lundi matin, le sous prefet du <br> nyon-ekele
+                                est partie en visite <br> dans son village natale ....</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+        </div>
+   </section>
 
-        <div class="mt-8 flex flex-row gap-[3rem]">
+     <div class="mt-8 flex flex-row gap-[3rem] lg:justify-between lg:mt-[8rem] p-6">
             <div class="flex flex-col gap-[1rem]">
-                <div><img src="Assets/Images/enfts.svg" alt=""></div>
+                <div>
+                    <img class="lg:hidden" src="Assets/Images/enfts.svg" alt="">
+                    <img class="hidden lg:inline " src="Assets/Images/enfts2.svg" alt="">
+                </div>
                 <div>
                     <p class="font-[400] text-italic text-[13px]"><i>Mardi , 10 Janvier 2025 10:30</i></p>
                 </div>
                 <div>
-                    <p class="font-[600] text-[18px] leading-[24px]">
-                        Lutte contre le travail des enfants , l’UNESCO réagit
+                    <p class="font-[600] text-[18px] text-[24px] leading-[24px]">
+                        Lutte contre le travail des <br> enfants , l’UNESCO réagit
                     </p>
                 </div>
             </div>
-            <div class="flex flex-col">
-                <div><img src="Assets/Images/biya.svg" alt=""></div>
+            <div class="flex flex-col gap-[1rem]">
+                <div>
+                    <img class="lg:hidden" src="Assets/Images/biya.svg" alt="">
+                    <img class="hidden lg:inline " src="Assets/Images/paul.svg" alt="">
+                </div>
                 <div>
                     <p class="font-[400] text-italic text-[13px]"><i>Mardi , 10 Janvier 2025 10:30</i></p>
                 </div>
                 <div>
-                    <p class="font-[600] text-[18px]">
-                        The Game of sera le proc
+                    <p class="font-[600] text-[18px] lg:text-[24px] leading-[24px]">
+                        The Game of Throne  , Qui <br> sera le prochain ?? 
                     </p>
                 </div>
             </div>
-        </div>
-    </section>
+            <div class="hidden lg:inline-flex flex flex-col gap-[1rem]">
+                <div>
+                    <img class="hidden lg:inline " src="Assets/Images/abou.svg" alt="">
+                </div>
+                <div>
+                    <p class="font-[400] text-italic text-[13px]"><i>Mardi , 10 Janvier 2025 10:30</i></p>
+                </div>
+                <div>
+                    <p class="font-[600] text-[18px] lg:text-[24px] leading-[24px]">
+                        Le lion sort de sa cage et <br> s’exprime la CAN  
+                    </p>
+                </div>
+            </div>
+        </div>  
 
-    <section class="mt-[3rem] px-6">
-        <div class="justify-items-center">
-            <h1 class="font-[600] text-[20px] text-center">Suivez l’atualité en direct sur Canal 2 International</h1>
-            <iframe class="mt-[2rem]" width="387" height="222" src="https://www.youtube.com/embed/KUTPD2G946o" title="AFFAIRE MARTINEZ ZOGO : COMPRENDRE LE DESSAISISSEMENT DU JUGE SIKATI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <section class="mt-[3rem] lg:mt-[8rem] px-6">
+        <div class="justify-items-center lg:flex lg:flex-col lg:items-center lg:gap-[2rem]">
+            <h1 class="font-[600] text-[20px] lg:text-[53px] text-center">Suivez l’atualité en direct sur Canal 2 International</h1>
+            <iframe class="lg:rounded-[20px] lg:w-[1120px] lg:h-[623px] mt-[2rem]" width="387" height="222" src="https://www.youtube.com/embed/KUTPD2G946o"
+                title="AFFAIRE MARTINEZ ZOGO : COMPRENDRE LE DESSAISISSEMENT DU JUGE SIKATI" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
 
-        <div class="justify-items-center">
-            <h1 class="font-[600] text-[20px] text-center mt-[2rem]">Suivez l’atualité en direct sur Canal 2 International</h1>
-            <img class="mt-[1rem]" src="Assets/Images/cmatin.svg" alt="">
+        <div class="justify-items-center lg:mt-[6rem]">
+            <h1 class="font-[600] text-[20px] text-center mt-[2rem]"><p class="lg:hidden">Suivez l’atualité en direct sur Canal 2International</p> <p><h1 class="hidden lg:inline font-[600] text-[53px] text-center mt-[2rem]">Retrouvez vos programmes préférés </h1></p></h1>
+            <img class="lg:hidden mt-[1rem]" src="Assets/Images/cmatin.svg" alt="">
         </div>
 
-        <div class="flex flex-col gap-[1.5rem] mt-[1.5rem]">
-            <div class="text-bar font-[600] text-[32px]">
+        <div class="lg:flex lg:flex-row justify-evenly mt-[4rem]">
+          <img src="Assets/Images/cmatin2.svg" alt="">   
+          <div class="flex flex-col gap-[1.5rem] mt-[1.5rem] lg:gap-[4rem]">
+            <div class="text-bar font-[600] text-[32px] lg:text-[48px]">
                 <h1>CANAL MATIN</h1>
             </div>
-            <div class="font-[400] text-[14px]">
+            <div class="font-[400] text-[14px] lg:text-[24px]">
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br> sed do eiusmod tempor incididunt ut labore
-                    et dolore <br> magna aliqua. Ut enim ad minim veniam, quis nostrud <br> 
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br> sed do eiusmod tempor incididunt ut
+                    labore
+                    et dolore <br> magna aliqua. Ut enim ad minim veniam, quis nostrud <br>
                     <br>
                     Du Lundi au vendredi sur Canal 2 international
                 </p>
@@ -140,27 +171,39 @@
                 <img src="Assets/Images/x.svg" alt="Twitter">
                 <img src="Assets/Images/linkdn.svg" alt="linkdn">
             </div>
+          </div>
         </div>
 
-        <div class="mt-8 flex flex-row gap-[3.5rem]">
+        <div class="mt-8 flex flex-row gap-[3.5rem] lg:justify-evenly lg:mt-[10rem]">
             <div class="flex flex-col gap-[1rem]">
-                <div class="relative bg-cover  bg-no-repeat w-[162px] h-[150px]"
-                style="background-image: url(Assets/images/cadre.svg);">
-                <div class="relative bg-cover  bg-no-repeat w-[152px] h-[84px] mt-[2rem]"
-                    style="background-image: url(Assets/images/nous\ chez\ vous.svg);">
+                <div class="relative bg-cover  bg-no-repeat w-[162px] h-[150px] lg:w-[375px] lg:h-[350px]"
+                    style="background-image: url(Assets/images/cadre.svg);">
+                    <div class="relative bg-cover  bg-no-repeat w-[152px] h-[84px] mt-[2rem] lg:w-[320px] lg:h-[200px] mt-[4rem]"
+                        style="background-image: url(Assets/images/nous\ chez\ vous.svg);">
+                    </div>
                 </div>
-            </div>
                 <div class="flex flex-col gap-[1rem]">
                     <div>
-                      <p class="font-[400] text-italic text-[13px]"><i>DU LUNDI AU <br> VENDREDI</i></p>
+                        <p class="font-[400] text-italic text-[13px]"><i>DU LUNDI AU <br> VENDREDI</i></p>
                     </div>
-                   <div>
-                    <p class="font-[600] text-[18px] leading-[24px]"> NOUS CHEZ VOUS </p>
-                   </div>
+                    <div>
+                        <p class="font-[600] text-[18px] leading-[24px]"> NOUS CHEZ VOUS </p>
+                    </div>
                 </div>
             </div>
             <div class="flex flex-col gap-[12px]">
-                <div><img src="Assets/Images/rodrigue.svg" alt=""></div>
+                <div><img class="lg:w-[375px]" src="Assets/Images/rodrigue.svg" alt=""></div>
+                <div>
+                    <p class="font-[400] text-italic text-[13px]"><i>CHAQUE VENDREDI</i></p>
+                </div>
+                <div>
+                    <p class="font-[600] text-[18px]">
+                        L’ARENE par Rodrigue Tongue
+                    </p>
+                </div>
+            </div>
+            <div class="flex flex-col gap-[12px] hidden lg:inline">
+                <div><img src="Assets/Images/comedie.svg" alt=""></div>
                 <div>
                     <p class="font-[400] text-italic text-[13px]"><i>CHAQUE VENDREDI</i></p>
                 </div>
@@ -180,8 +223,9 @@
             </div>
             <div class="font-[400] text-[14px]">
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br> sed do eiusmod tempor incididunt ut labore
-                    et dolore <br> magna aliqua. Ut enim ad minim veniam, quis nostrud <br> 
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br> sed do eiusmod tempor incididunt ut
+                    labore
+                    et dolore <br> magna aliqua. Ut enim ad minim veniam, quis nostrud <br>
                     <br>
                     Du Lundi au vendredi sur Canal 2 international
                 </p>

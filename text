@@ -1,0 +1,4 @@
+<div class="mt-8 flex gap-2">
+                    <hr class="w-4 h-12 bg-bar lg:rounded-[20px]">
+                    <h1 class="mt-6 font-semibold lg:font-600 lg:text-[20px]">À LA UNE DU JOUR</h1>
+                </div>
